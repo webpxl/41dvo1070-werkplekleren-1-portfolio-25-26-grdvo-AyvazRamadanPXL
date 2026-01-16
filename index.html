@@ -4,11 +4,95 @@
     <meta charset="UTF-8">
     <!-- Added responsive viewport for Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TESZT</title>
+    <title>Ayvaz Ramadan Portfolio </title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="wpl.css">
 </head>
 <body>
-        <p>Ayvaz Ramadan</p>
+
+<header>
+    <div class="nav-container">
+        <h1 class="logo">Portfolio</h1>
+        <nav>
+            <button onclick="showPage('home')">Portfolio</button>
+            <button onclick="showPage('about')">Over mij</button>
+            <button onclick="showPage('contact')">Contact</button>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- PORTFOLIO -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="circle"></div>
+            <div class="hero-text">
+                <h2>Ayvaz Ramadan</h2>
+                <p>Student Digitale Vormgeving</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OVER MIJ -->
+    <section id="about" class="page">
+        <div class="about-wrapper">
+            <div class="about-main">
+                <h2>Over mij</h2>
+                <p>
+                    Mijn naam is Ayvaz Ramadan. Ik ben geboren in Bulgarije en woon sinds mijn tiende in België. Momenteel studeer ik Digitale Vormgeving aan PXL Hasselt, waar ik me ontwikkel binnen verschillende creatieve en digitale disciplines.
+                    Mijn interesse ligt vooral bij graphic design, foto-editing en video-editing, waarbij ik graag aandacht besteed aan detail, sfeer en visuele helderheid. Ik ben leergierig, gemotiveerd en altijd op zoek naar manieren om mijn vaardigheden verder te verfijnen. Met een open mindset en een sterke interesse in digitale media bouw ik stap voor stap aan mijn eigen creatieve identiteit.
+                </p>
+                <p>
+                    Ik ben vooral geïnteresseerd in grafisch design, webdesign en UI/UX.
+                    Ik werk graag creatief en leer voortdurend nieuwe dingen bij.
+                </p>
+            </div>
+
+            <div class="about-cards">
+                <div class="card">
+                    <h3>Wie ben ik?</h3>
+                    <p>
+                        Mijn naam is Ayvaz. Ik ben geboren in Bulgarije en ben op tienjarige leeftijd naar België gekomen. Tijdens het middelbaar volgde ik de opleiding Basiszorg en Ondersteuning. Gedurende twee jaar liep ik één dag per week stage in verschillende woonzorgcentra.
+                        Na verloop van tijd merkte ik dat de zorgsector mij minder interesseerde en niet echt bij mij paste. Na het afronden van het middelbaar besloot ik daarom een andere richting uit te gaan. Momenteel studeer ik Digitale Vormgeving aan PXL, waar ik mijn creativiteit en interesse in design verder kan ontwikkelen.
+
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Hobby’s</h3>
+                    <p>
+                        Op dit moment heb ik niet veel interesses buiten mijn studies, omdat ik mij volledig focus op mijn lessen. In mijn vrije tijd breng ik graag tijd door met mijn vrienden. Vroeger speelde ik graag badminton.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Figma</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="page">
+        <div class="contact-wrapper">
+            <h2>Contact</h2>
+            <p><strong>Telefoon:</strong> +32 465 19 54 90</p>
+            <p><strong>E-mail:</strong> ayvazramadan@gmail.com</p>
+        </div>
+    </section>
+
+</main>
+
+<script src="wpl.js"></script>
 </body>
 </html>
+
+
